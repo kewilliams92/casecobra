@@ -1,0 +1,10 @@
+For this project, I am using uploadThing for the upload management. It is a simple and easy to use package that allows you to upload files to the server. It also provides a progress bar to show the progress of the upload.
+
+However, if this was production project that I build for myself or a client, I would use 
+Amazon S3 for the file storage. It is a scalable, secure, and reliable storage solution that is perfect for storing files. It also has a robust API that allows you to easily integrate it into your application.
+Or cloudflare for the file storage. It is a content delivery network that can store and deliver files to users quickly and efficiently. It also has a robust API that allows you to easily integrate it into your application.
+
+Reasons:
+1.  uploadthing doesn't require a credit card to use, so it is a good option for small projects or for testing purposes. However, it is not as scalable or reliable as Amazon S3 or cloudflare.
+2.  uploadthing makes it much easier to get started and start uploading files. It is a simple and easy to use package that is perfect for beginners or for small projects.
+
