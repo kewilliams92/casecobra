@@ -7,7 +7,7 @@ const OrderReceivedEmail = ({ shippingAddress, orderId, orderDate }: { shippingA
   return (
     <Html>
       <Head />
-      <Preview>Your </Preview>
+      <Preview>Your order summary and extimated delivery date</Preview>
       <Body style={main}>
         <Container style={container}>
           <Section style={message}>
@@ -37,10 +37,15 @@ const OrderReceivedEmail = ({ shippingAddress, orderId, orderDate }: { shippingA
             <Row style={{ display: 'inline-flex', marginBottom: 40 }}>
               <Column style={{ width: 170 }}>
                 <Text style={global.paragraphWithBold}>
-                  Order number
+                  Order Number
                 </Text>
                 <Text style={track.number}>
                   {orderId}
+                </Text>
+              </Column>
+              <Column style={{ width: 170 }}>
+                <Text style={global.paragraphWithBold}>
+                  Order Date
                 </Text>
                 <Text style={track.number}>
                   {orderDate}
